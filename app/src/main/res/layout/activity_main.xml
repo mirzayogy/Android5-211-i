@@ -16,6 +16,7 @@
         />
 
     <EditText
+        android:id="@+id/namaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi nama lengkap "
@@ -30,6 +31,7 @@
         />
 
     <EditText
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Email "
@@ -92,6 +94,7 @@
         android:gravity="end"
         >
         <Button
+            android:id="@+id/simpanButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Simpan"
@@ -101,6 +104,7 @@
             />
 
         <Button
+            android:id="@+id/batalButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Batal"
