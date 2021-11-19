@@ -47,6 +47,7 @@
         />
 
     <EditText
+        android:id="@+id/noHandphoneEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Handphone"
@@ -62,6 +63,7 @@
         />
 
     <EditText
+        android:id="@+id/tanggalLahirEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Tanggal Lahir (dd/MM/yyyy)"
@@ -77,6 +79,7 @@
         />
 
     <EditText
+        android:id="@+id/jumlahMatakuliahEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Jumlah Mata Kuliah"

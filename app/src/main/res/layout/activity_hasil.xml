@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HasilActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        />
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mirza@yogy.com"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handphone"
+        />
+
+    <TextView
+        android:id="@+id/noHandphoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+628111"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        />
+
+    <TextView
+        android:id="@+id/tanggalLahirTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01/01/2001"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah mata Kuliah"
+        />
+
+    <TextView
+        android:id="@+id/jumlahMatakuliahTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="24"
+        android:textSize="24sp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+</LinearLayout>
